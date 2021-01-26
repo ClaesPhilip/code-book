@@ -1,0 +1,31 @@
+.landingpage-wrapper {
+    background: #fffffa;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+.landingpage-inner-wrapper {
+    margin-top: 150px;
+    max-width: 1000px;
+}
+
+.landingpage-header {
+    font-weight: bold;
+    font-size: 8rem;
+/*     color: black; */
+    -webkit-text-fill-color: transparent; 
+    -webkit-text-stroke-width: 5px;
+    -webkit-text-stroke-color: black;
+}
+
+.landingpage-sm-header {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.landingpage-text {
+    padding: 50px;
+    font-size: 1.6rem;
+    color: rgb(255, 255, 255);
+}
