@@ -10,6 +10,17 @@
     max-width: 1000px;
 }
 
+.img-container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    flex-shrink: inherit;
+}
+
+.jon-logo {
+    border-radius: 50%;
+}
+
 .landingpage-header {
     font-weight: bold;
     font-size: 8rem;
